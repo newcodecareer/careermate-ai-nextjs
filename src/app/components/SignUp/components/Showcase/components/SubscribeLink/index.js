@@ -1,1 +1,1 @@
-export {default} from './SubscribeLind'
+export {default} from './SubscribeLink'

@@ -2,7 +2,7 @@ import React from "react";
 
 const Field = ({label, placeholder}) => {
   return (
-    <div className="">
+    <div className="w-full">
       <div className="mb-2">
         <label className="text-[#5c5c5c]">{label}</label>
       </div>

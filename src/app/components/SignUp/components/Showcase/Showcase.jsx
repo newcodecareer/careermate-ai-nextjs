@@ -7,8 +7,8 @@ import Image from "next/image";
 
 const Showcase = () => {
   return (
-    <div className="flex-1">
-    <Image src={backgroundImage} alt=""/>
+    <div className="flex-1 relative rounded-4xl overflow-hidden">
+      <Image src={backgroundImage} alt="" fill className="object-cover -z-10" />
       <Advantages />
       <UserReview />
       <SubscribeLink />
